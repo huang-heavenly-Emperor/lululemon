@@ -1,0 +1,199 @@
+/* 页面特定样式 */
+.page-title {
+    font-size: 42px;
+    margin-bottom: 50px;
+    color: #2c2c2c;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content {
+    width: 1500px;
+    margin: 56px auto 0;
+    padding: 40px 0;
+}
+
+.content-wrapper {
+    width: 100%;
+}
+
+/* 品牌介绍部分 */
+.brand-intro {
+    padding: 100px 0;
+    background: linear-gradient(to bottom, #f8f8f8 0%, #fff 100%);
+}
+
+.intro-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+.section-title {
+    font-size: 42px;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 40px;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.intro-text p {
+    font-size: 17px;
+    line-height: 2;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.intro-image {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+}
+
+.intro-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.intro-image:hover img {
+    transform: scale(1.05);
+}
+
+/* Be All In 部分 */
+.be-all-in {
+    padding: 120px 0;
+    background: #2c2c2c;
+    color: #fff;
+    text-align: center;
+}
+
+.be-all-in .section-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.be-all-in .section-title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.manifesto {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.manifesto p {
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.manifesto p br {
+    display: block;
+    content: "";
+    margin: 10px 0;
+}
+
+.manifesto .highlight {
+    font-size: 32px;
+    font-weight: 600;
+    color: #d31334;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+
+/* Sweatlife 部分 */
+.sweatlife {
+    padding: 120px 0;
+    background: #fff;
+}
+
+.sweatlife .section-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.section-intro {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto 80px;
+}
+
+.pillars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.pillar-item {
+    padding: 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.pillar-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.12);
+}
+
+.pillar-image {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 30px;
+}
+
+.pillar-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.pillar-item h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.pillar-item h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 2px;
+    background-color: #d31334;
+}
+
+.pillar-item p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+} 
